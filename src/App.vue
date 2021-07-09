@@ -1,9 +1,10 @@
 <template>
-	<h1>Simple Vue3 Projects</h1>
+	<h1>Vue 3 Click Reaction Game</h1>
 </template>
 
 <script setup>
-import Template from "./components/Template.vue";
+import Block from "./components/Block.vue";
+import Results from "./components/Results.vue";
 </script>
 
 <style lang='sass'>
