@@ -1,6 +1,4 @@
-<template>
-	<h1>Vue 3 Task Tracker App</h1>
-</template>
+<template></template>
 
 <script setup>
 </script>
