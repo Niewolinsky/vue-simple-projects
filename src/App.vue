@@ -1,8 +1,6 @@
 <template>
 	<h1>Vue 3 Typing Speed Game</h1>
-	<button @click="toggleGameState">
-		{{ isGameStarted ? "RESTART" : "START" }}
-	</button>
+	<button @click="toggleGameState">{{ isGameStarted ? "RESTART" : "START" }}</button>
 	<div v-if="isGameStarted">
 		<WordBlock :wordsArray="wordsArray" @stop-game="toggleGameState" />
 		<Timer @stop-time="getTime" />
